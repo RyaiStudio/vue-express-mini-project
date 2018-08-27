@@ -18,8 +18,23 @@
 	                ] }
 	            ],
 	            buttons: [
-	                { btClass: 'is-default', url: 'https://github.com/private-ryan23', content: 'Tweet', icons: 'fab fa-facebook-messenger' },
+	                { btClass: 'is-default', url: 'https://github.com/private-ryan23', content: 'Git', icons: 'fab fa-github' },
 	                { btClass: 'is-primary', url: '', content: 'Download', icons: 'fas fa-download' }
+	            ],
+	            sidebar: [
+	            	{ 
+	            		label: 'GENERAL',
+	            		links: [
+	            			{ url: '', content: 'Link One' },
+	            			{ url: '', content: 'Link Two' }
+	            		]
+	            	},
+	            	{ 
+	            		label: 'ADMIN',
+	            		links: [
+	            			{ url: '', content: 'Link One' }
+	            		]
+	            	}
 	            ]
 	        }
 		}

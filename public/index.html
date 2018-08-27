@@ -11,7 +11,9 @@
 			<navmenu v-bind:navis="menu.right" v-bind:buttons="menu.buttons"  ></navmenu>
 		</div>
 	</nav>
-
+	<section id="main-content" class="container">
+		<thecontainer v-bind:asides="menu.sidebar" ></thecontainer>
+	</section>
 	<script type="text/javascript" src="./dist/bundle.app.js"></script>
 	<script type="text/javascript" src="./dist/vue.app.js"></script>
 </body>

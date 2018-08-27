@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -94,11 +94,11 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\n\r\n(function(window) {\r\n\twindow.elnav = function(){ }\r\n\twindow.elnav.prototype = {\r\n\t\tdata: {\r\n\t\t\tbrand: {\r\n\t            url: '/',\r\n\t            logo: 'https://bulma.io/images/bulma-logo.png',\r\n\t            imgalt: 'Bulma: a modern CSS framework based on Flexbox'\r\n\t        },\r\n\t        menu: {\r\n\t            right: [\r\n\t                { url: '', content: 'home', nosub: true, subs: [] },\r\n\t                { url: '/about', content: 'about', nosub: false, subs: [\r\n\t                    { url: '/overview', content: 'overview' },\r\n\t                    { url: '/icons', content: 'icons' }\r\n\t                ] }\r\n\t            ],\r\n\t            buttons: [\r\n\t                { btClass: 'is-default', url: 'https://github.com/private-ryan23', content: 'Tweet', icons: 'fab fa-facebook-messenger' },\r\n\t                { btClass: 'is-primary', url: '', content: 'Download', icons: 'fas fa-download' }\r\n\t            ]\r\n\t        }\r\n\t\t}\r\n\t}\r\n\r\n\tvar Helper = function() { }\r\n\tHelper.prototype = {\r\n\t\tinit: function() { }\r\n\t}\r\n\r\n})(window)\r\n\r\n\n\n//# sourceURL=webpack:///./dist/script/custom-script.js?");
+eval("\r\n\r\n(function(window) {\r\n\twindow.elnav = function(){ }\r\n\twindow.elnav.prototype = {\r\n\t\tdata: {\r\n\t\t\tbrand: {\r\n\t            url: '/',\r\n\t            logo: 'https://bulma.io/images/bulma-logo.png',\r\n\t            imgalt: 'Bulma: a modern CSS framework based on Flexbox'\r\n\t        },\r\n\t        menu: {\r\n\t            right: [\r\n\t                { url: '', content: 'home', nosub: true, subs: [] },\r\n\t                { url: '/about', content: 'about', nosub: false, subs: [\r\n\t                    { url: '/overview', content: 'overview' },\r\n\t                    { url: '/icons', content: 'icons' }\r\n\t                ] }\r\n\t            ],\r\n\t            buttons: [\r\n\t                { btClass: 'is-default', url: 'https://github.com/private-ryan23', content: 'Git', icons: 'fab fa-github' },\r\n\t                { btClass: 'is-primary', url: '', content: 'Download', icons: 'fas fa-download' }\r\n\t            ],\r\n\t            sidebar: [\r\n\t            \t{ \r\n\t            \t\tlabel: 'GENERAL',\r\n\t            \t\tlinks: [\r\n\t            \t\t\t{ url: '', content: 'Link One' },\r\n\t            \t\t\t{ url: '', content: 'Link Two' }\r\n\t            \t\t]\r\n\t            \t},\r\n\t            \t{ \r\n\t            \t\tlabel: 'ADMIN',\r\n\t            \t\tlinks: [\r\n\t            \t\t\t{ url: '', content: 'Link One' }\r\n\t            \t\t]\r\n\t            \t}\r\n\t            ]\r\n\t        }\r\n\t\t}\r\n\t}\r\n\r\n\tvar Helper = function() { }\r\n\tHelper.prototype = {\r\n\t\tinit: function() { }\r\n\t}\r\n\r\n})(window)\r\n\r\n\n\n//# sourceURL=webpack:///./dist/script/custom-script.js?");
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!********************************************!*\
   !*** multi ./dist/script/custom-script.js ***!
   \********************************************/

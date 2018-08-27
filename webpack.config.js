@@ -3,12 +3,13 @@ var vue = require("vue");
 
 module.exports = {
 	entry: {
+        bundle: [
+            "./dist/script/custom-script.js"
+        ],
 		vue: [
-			"./dist/vue-components/intro.js",
-		],
-		bundle: [
-			"./dist/script/custom-script.js"
-		],
+            "./dist/vue-components/header.js",
+			"./dist/vue-components/container.js"
+		]
 	},
     output: {
         path: _path.join(__dirname, "dist"),
