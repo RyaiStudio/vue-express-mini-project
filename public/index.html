@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue JS on Express</title>
+	<link rel="stylesheet" type="text/css" href="./dist/css/style.css">
+</head>
+<body>
+	<nav id="navbar-header" class="navbar is-light">
+		<div class="container">
+			<navbrand  v-bind:url="brand.url" v-bind:logo="brand.logo" v-bind:imgalt="brand.imgalt"></navbrand>
+			<navmenu v-bind:navis="menu.right" v-bind:buttons="menu.buttons"  ></navmenu>
+		</div>
+	</nav>
+
+	<script type="text/javascript" src="./dist/bundle.app.js"></script>
+	<script type="text/javascript" src="./dist/vue.app.js"></script>
+</body>
+</html>
