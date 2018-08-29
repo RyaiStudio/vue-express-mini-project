@@ -5,17 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch ./dist/scss:./dist/css --style compressed"
+    "sass": "sass --watch ./dist/scss:./dist/css --style compressed",
+    "webpack": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/private-ryan23/vue-express-mini-project.git"
   },
   "author": "Ryai",
   "license": "ISC",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.2.0",
+    "ajv": "^6.5.3",
     "bulma": "^0.7.1",
     "express": "^4.16.3",
+    "js-beautify": "^1.6.14",
     "vue": "^2.5.17",
-    "vue-cli": "^2.9.6",
+    "vue-cli": "^2.9.6"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
     "vue-loader": "^14.2.2",
-    "vue-template-compiler": "^2.5.17"
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
   }
 }

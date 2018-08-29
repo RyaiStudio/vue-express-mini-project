@@ -1,6 +1,6 @@
 <template>
-	<div class="columns">
-		<div class="column is-one-quarter">
+	<div class="columns ">
+		<div class="column  is-one-quarter">
 			<aside class="menu">
 				<sidebar
 					v-for="(aside, index) in asides" 
